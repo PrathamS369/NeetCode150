@@ -2,8 +2,7 @@ class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
         
-     unordered_map<int, int> mpp;
-        
+     
          sort(nums.begin(),nums.end());
         bool flag = false;
         for(int i =0;i<nums.size()-1;i++){
